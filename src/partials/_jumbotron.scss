@@ -1,0 +1,48 @@
+#jumbotron{
+  background-image: url(https://www.painterartist.com/static/ptr/images/home/bg-painter-home.jpg);
+  height: 500px;
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
+
+  .jumbo{
+      @include flex (column, flex-start, flex-start) ;
+      width: 50%;
+      padding-top: 70px;
+
+    img{
+      height: 50px;
+    }
+    h2{
+      padding-top: 20px;
+    }
+    span{
+      padding-top: 30px;
+      font-size: 25px;
+      padding-bottom: 5px;
+    }
+    span,p{
+      color: $colore_text_jumbo;
+      font-style: italic;
+    }
+    p{
+      font-size: 20px;
+    }
+  }
+  .info{
+    padding-top: 50px;
+  }
+  span:first-child{
+    padding: 15px 25px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    margin-right: 20px;
+  }
+  span:last-child{
+    padding: 13px 23px;
+    border: 2px solid black;
+    font-size: 20px;
+    margin-right: 20px;
+  }
+}

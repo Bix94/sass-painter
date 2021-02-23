@@ -1,1 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.centro {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.up {
+  text-transform: uppercase;
+}
+
+header {
+  height: 100px;
+  background-color: #000000;
+}
+header .top {
+  color: #747474;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  height: 50px;
+}
+header .top li {
+  display: inline;
+  padding-right: 25px;
+}
+header .top li i {
+  color: #009cff;
+  padding-right: 10px;
+  font-size: 13px;
+}
+header .top button {
+  width: 100px;
+  height: 15px;
+}
+header .bottom {
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: flex-start;
+  height: 50px;
+}
+header .bottom li {
+  display: inline;
+  padding-right: 30px;
+  vertical-align: middle;
+}
+header .bottom li i {
+  color: #747474;
+  font-size: 10px;
+}
+
+#jumbotron {
+  background-image: url(https://www.painterartist.com/static/ptr/images/home/bg-painter-home.jpg);
+  height: 500px;
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
+}
+#jumbotron .jumbo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 50%;
+  padding-top: 70px;
+}
+#jumbotron .jumbo img {
+  height: 50px;
+}
+#jumbotron .jumbo h2 {
+  padding-top: 20px;
+}
+#jumbotron .jumbo span {
+  padding-top: 30px;
+  font-size: 25px;
+  padding-bottom: 5px;
+}
+#jumbotron .jumbo span, #jumbotron .jumbo p {
+  color: #c70cb9;
+  font-style: italic;
+}
+#jumbotron .jumbo p {
+  font-size: 20px;
+}
+#jumbotron .info {
+  padding-top: 50px;
+}
+#jumbotron span:first-child {
+  padding: 15px 25px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  margin-right: 20px;
+}
+#jumbotron span:last-child {
+  padding: 13px 23px;
+  border: 2px solid black;
+  font-size: 20px;
+  margin-right: 20px;
+}

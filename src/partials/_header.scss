@@ -1,1 +1,45 @@
+header{
+  height: $height_header;
+  background-color: $colore_header;
 
+  .top{
+    color: $colore_text_li_header-top;
+    @include flex (row, center, flex-end) ;
+    height: 50px;
+
+    li{
+      display: inline;
+      padding-right: 25px;
+
+      i{
+        color: $colore_header_i;
+        padding-right: 10px;
+        font-size: 13px;
+      }
+    }
+    button{
+      width: 100px;
+      height: 15px;
+    }
+  }
+
+  .bottom{
+    color: $colore_text_li_header-bottom;
+    @include flex (row, start, flex-start) ;
+    height: 50px;
+
+    li{
+      display: inline;
+      padding-right: 30px;
+      vertical-align: middle;
+
+      i{
+        color: $colore_text_li_header-top;
+        font-size: 10px;
+      }
+    }
+  }
+
+
+
+}
